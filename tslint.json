@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false,
+        "semicolon": [true, "always"],
+        "eofline": true,
+        "indent": [true, "spaces", 4],
+        "import-spacing": true,
+        "quotemark": [true, "double", "backtick"],
+        "encoding": true,
+        "no-duplicate-imports": [true, {"allow-namespace-imports": true}],
+        "no-require-imports": true,
+        "triple-equals": true,
+        "await-promise": true,
+        "no-async-without-await": true
+    },
+    "rulesDirectory": []
+}
